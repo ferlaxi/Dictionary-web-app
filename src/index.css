@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    body {
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+    }
+    
+    .svgplay:hover{
+        fill: white;
+    }
+    .svgplay:hover .circle{
+        fill: #A445ED;
+        opacity: 100%;
+    }
+
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local("inter") url("./assets/fonts/inter/Inter-VariableFont_slnt\,wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Lora";
+    src: local("lora") url("./assets/fonts/lora/Lora-Italic-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Inconsolata";
+    src: local("inconolata") url("./assets/fonts/inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf") format("truetype");
+}
