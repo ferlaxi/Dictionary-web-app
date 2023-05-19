@@ -9,5 +9,5 @@ This is a Dictionary Web App!
 - Vite
 
 ## Links
-- Live Site URL: [Dictionary Web App]()🌐
+- Live Site URL: [Dictionary Web App](https://dictionary-web-app-ferlaxi.netlify.app/)🌐
 - Frontend Mentor - [@ferlaxi](https://www.frontendmentor.io/profile/ferlaxi)
